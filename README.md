@@ -16,3 +16,22 @@
 
 
 Execute pacman.html to play the game
+
+## Overview
+This Pacman game consists of three main JavaScript files:
+- game.js: Contains the main game loop, initialization, and logic for drawing walls, Pacman, ghosts, and food items.
+- ghost.js: Defines the Ghost class, including its movement logic, collision detection, and drawing functions.
+- pacman.js: Defines the Pacman class, including its movement logic, collision detection, animation, and drawing functions.
+
+## Game Controls
+- Use the arrow keys or WASD keys to move Pacman around the maze.
+- Eat all the food items while avoiding the ghosts to advance to the next level.
+- Each food item eaten adds to your score.
+- Colliding with a ghost will result in losing a life. The game ends when all lives are lost.
+
+## Features
+- Classic Pacman gameplay experience with colorful graphics and animations.
+- Dynamic movement and collision detection for Pacman and ghosts.
+- Score tracking and display.
+- Lives tracking and display
+- Randomized ghost movement patterns for added challenge.
